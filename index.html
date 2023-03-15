@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Results summary component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;700;800&family=Hanken+Grotesk:wght@300;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main border">
+      <div class="resultsSection border flex-way">
+        <h4 class="resultsTitle">Your Result</h4>
+        <p class="circle flex-way">
+          <span> 76 </span>
+          of 100
+        </p>
+        <div class="resultMassege">
+          <h3>Great</h3>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="secondSection flex-way">
+        <h3>Summary</h3>
+        <div class="elementsContainer flex-way">
+          <div class="element">
+            <p class="flex-way">
+              <img src="./assets/images/icon-reaction.svg" alt="" />Reaction
+            </p>
+            <div class="precent"><span>80</span> / 100</div>
+          </div>
+          <div class="element">
+            <p class="flex-way">
+              <img src="./assets/images/icon-memory.svg" alt="" />Memory
+            </p>
+            <div class="precent"><span>92</span> / 100</div>
+          </div>
+          <div class="element">
+            <p class="flex-way">
+              <img src="./assets/images/icon-verbal.svg" alt="" /> Verbal
+            </p>
+            <div class="precent"><span>61</span> / 100</div>
+          </div>
+          <div class="element">
+            <p class="flex-way">
+              <img src="./assets/images/icon-visual.svg" alt="" />Visual
+            </p>
+            <div class="precent"><span>72</span> / 100</div>
+          </div>
+        </div>
+        <button>Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Rawan Ahmed</a>.
+    </div>
+  </body>
+</html>
